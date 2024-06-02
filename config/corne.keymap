@@ -18,8 +18,7 @@
         spotlight {
             bindings = <&kp LG(SPACE)>;
             key-positions = <36 40>;
-            slow-release;
-            require-prior-idle-ms = <20000>;
+            timeout-ms = <20000>;
         };
     };
 
