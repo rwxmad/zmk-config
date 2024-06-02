@@ -12,6 +12,15 @@
 &led_strip { chain-length = <27>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        spotlight {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <36 40>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
