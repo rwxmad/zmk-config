@@ -53,10 +53,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp F1      &kp F2        &kp F3           &kp F4           &kp F5              &kp F6     &kp F7     &kp F8     &kp F9            &kp F10            &kp BSPC
-&kp LCTRL  &kp K_PREV  &kp K_NEXT    &kp C_VOL_DN     &kp C_VOLUME_UP  &kp K_PLAY_PAUSE    &kp MINUS  &kp EQUAL  &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
-&kp LSHFT  &bl BL_TOG  &bl BL_CYCLE  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI     &kp UNDER  &kp PLUS   &kp TILDE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp NON_US_BACKSLASH
-                                     &kp LGUI         &trans           &kp SPACE           &kp RET    &trans     &kp RALT
+&kp TAB    &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)          &kp LG(NUMBER_6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)        &kp F10            &kp BSPC
+&kp LCTRL  &kp K_PREV        &kp K_NEXT        &kp C_VOL_DN      &kp C_VOLUME_UP   &kp K_PLAY_PAUSE    &kp MINUS         &kp EQUAL   &kp GRAVE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
+&kp LSHFT  &bl BL_TOG        &bl BL_CYCLE      &rgb_ug RGB_TOG   &rgb_ug RGB_EFF   &rgb_ug RGB_BRI     &kp UNDER         &kp PLUS    &kp TILDE   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp NON_US_BACKSLASH
+                                               &kp LGUI          &trans            &kp SPACE           &kp RET           &trans      &kp RALT
             >;
         };
     };
